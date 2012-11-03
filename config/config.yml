@@ -1,0 +1,12 @@
+defaults: &defaults
+
+development:
+  <<: *defaults
+  domain: 'myapp.dev'
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+  domain: 'myapp.com'
